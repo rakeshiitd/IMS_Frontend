@@ -1,5 +1,5 @@
 imsControllers.controller('loginController', ['$scope','$location','$cookies','$window',
-  function($scope,$location,$cookies,$window) {
+  function($scope,$location,$cookies,$window, $http) {
     $scope.phones = [];
     $scope.orderProp = 'age';
     $scope.login = function(userLogin){
